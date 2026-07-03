@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com Silvio Roberto Filho — formulário, e-mail e redes sociais.">
+  <title>Contato — Silvio Roberto Filho</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🚀</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar" role="navigation" aria-label="Navegação principal">
+    <div class="container">
+      <a href="index.html" class="logo">Silvio<span>.</span></a>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html" class="active">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Page Header ===== -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Entre em <span class="highlight">Contato</span></h1>
+      <p>Vamos conversar? Mande uma mensagem ou me encontre nas redes sociais.</p>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="section contact-section" style="padding-top: 20px;">
+    <div class="container">
+      <div class="contact-wrapper">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>📍 Vamos trabalhar juntos</h3>
+          <p>
+            Estou sempre aberto a novos projetos, colaborações e desafios interessantes.
+            Se você tem uma ideia, uma oportunidade ou só quer trocar uma ideia sobre
+            tecnologia, me mande uma mensagem!
+          </p>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📧</div>
+            <div class="contact-item-text">
+              <strong>E-mail</strong>
+              <a href="mailto:silvio@exemplo.com">silvio@exemplo.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-text">
+              <strong>Localização</strong>
+              <span>Brasil · Remoto</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">🐙</div>
+            <div class="contact-item-text">
+              <strong>GitHub</strong>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/silvio</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">💼</div>
+            <div class="contact-item-text">
+              <strong>LinkedIn</strong>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com/in/silvio</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form" id="contactFormWrapper">
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <input type="text" id="assunto" name="assunto" placeholder="Ex: Projeto colaborativo" autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Conte sobre sua ideia, projeto ou mensagem..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              Enviar Mensagem
+            </button>
+          </form>
+
+          <!-- Success Message -->
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✅</div>
+            <h3>Mensagem enviada!</h3>
+            <p>Obrigado pelo contato! Responderei assim que possível.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Silvio<span>.</span></h3>
+          <p>Desenvolvedor · IA · Inovação</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:silvio@exemplo.com" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2025</span> Silvio Roberto Filho. Feito com <span style="color: var(--color-secondary);">❤</span> e código.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Scroll to Top ===== -->
+  <button class="scroll-top" aria-label="Voltar ao topo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
